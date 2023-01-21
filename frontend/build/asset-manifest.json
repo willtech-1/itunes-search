@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc87976a.css",
+    "main.js": "/static/js/main.0c43991d.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/itunes-bcg.png": "/static/media/itunes-bcg.fed3e6bb3937f9622239.png",
+    "index.html": "/index.html",
+    "main.cc87976a.css.map": "/static/css/main.cc87976a.css.map",
+    "main.0c43991d.js.map": "/static/js/main.0c43991d.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc87976a.css",
+    "static/js/main.0c43991d.js"
+  ]
+}

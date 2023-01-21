@@ -1,0 +1,21 @@
+
+.fav-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+.fav-text > span{
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgb(19, 18, 18);
+}
+
+.remove{
+  width: 20px;
+  position: relative;
+  top: 4px;
+  left: 15px;
+}

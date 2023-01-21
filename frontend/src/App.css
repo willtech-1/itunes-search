@@ -1,0 +1,222 @@
+* {
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+body{
+  overflow-x: hidden;
+  color: black;
+  background-image: url("../src/images/itunes-bcg.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* container */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+
+/* search-input */
+.search-input{
+  outline: none;
+  font-size: 0.85rem;
+  padding: 6px;
+  position: relative;
+  left: 75px;
+}
+
+.search-btn{
+  position: relative;
+  left: 73px;
+  top: 5px;
+  color: white;
+  cursor:pointer;
+  outline: none;
+}
+
+.itunes-search{
+  width: 23px;
+  outline: none;
+}
+
+.data-wrapper{
+  display: grid;
+  grid-template-areas: "image image";
+  grid-area: image;
+  margin-top: 4rem;
+  margin: 4rem;
+  position: relative;
+  top: 30px;
+  left: 250px;
+}
+
+/* image cover */
+.itunes-images{
+  object-fit: cover;
+  height: 225px;
+  width: 225px;
+  border-radius: 4px;
+}
+
+.track-text {
+  color: white;
+}
+
+/* audio-btn */
+.audio-btn{
+  outline: none;
+}
+
+.audio{
+  outline: none;
+  display: block;
+  border-radius: 20px;
+  margin:0 auto;
+
+}
+
+/* add to fav btn */
+
+.add-fav{
+  font-size: 1rem;
+  padding: 12px;
+  border: 2px solid rgb(41, 41, 41);
+  border-radius: 24px;
+  color: white;
+  background-color: rgb(41, 41, 41);
+  cursor:pointer ;
+  width: 280px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* add to fav link */
+.fav-link{
+  position: relative;
+  left: 220px;
+  top: 7px;
+  font-size: 1rem;
+  padding: 6px;
+  border-radius: 4px;
+  color: rgb(43, 43, 43);
+  cursor:pointer ;
+  text-decoration: none;
+}
+.circle-arrow{
+  width: 17px;
+}
+
+
+/* back home btn */
+.back-home{
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+  font-size: 1rem;
+  padding: 6px;
+  border-radius: 2px;
+  color: white;
+  cursor:pointer ;
+  text-decoration: none;
+}
+
+.back-home > p {
+  color: white;
+  position: relative;
+  bottom: 10px;
+  left: 6px;
+}
+
+/* dropdown */
+.toggle-categories-button{
+  position: relative;
+  right: 850px;
+  top: 8px;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+  width: 112px;
+  font-size: 1rem;
+  padding: 6px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  color: white;
+  background-color: rgb(240, 105, 105);
+  cursor:pointer ;
+  text-decoration: none;
+  outline: none;
+}
+
+#drop-down-btn{
+  position: relative;
+  right: 962px;
+  top: 40px;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  width: 112px;
+  background-color: whitesmoke;
+  color: black;
+  outline: none;
+  border: 2px solid white;
+}
+
+#drop-down-list{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#drop-down-list:hover{
+  color: black;
+  background-color: whitesmoke;
+}
+
+.select-type{
+  color: black;
+  position: relative;
+  left: 230px;
+  bottom: 10px;
+}
+
+.music-text{
+  font-size: 1.5rem;
+}
+.apple-icon{
+  width: 30px;
+  position: relative;
+  top: 4px;
+}
+
+.itunes-apple{
+  position: relative;
+  left: 300px;
+}
+/* play shuffle next section */
+.shuffle, .rewind, .play, .next, .arrow{
+  width: 20px;
+  margin: 0.35rem;
+  position: relative;
+  left: 360px;
+  top: 7px;
+}
+
+.my-search{
+  position: relative;
+  left: 130px;
+}
+
+.hr-horizontal{
+  width: 75%;
+  position: relative;
+  top: 20px;
+}
