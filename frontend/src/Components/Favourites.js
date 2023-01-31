@@ -48,17 +48,17 @@ const Favourites = () => {
           {displayFavourites.map((data) => (
             <div>
               <img
-                src={data.artworkUrl100.replace("100x100", "250x250")}
                 crossorigin="anonymous"
+                src={data.artworkUrl100.replace("100x100", "250x250")}
                 alt="artwork"
                 className="itunes-images"
               />
-              <p className="track-text">{data.trackName}<img src={explicit} alt="explicit" className="explicit" /></p>
-              <p className="track-text">{data.artistName}<img src={dots} alt="dots" className="dots" /></p>
+              <p className="track-text">{data.trackName}<img crossorigin="anonymous" src={explicit} alt="explicit" className="explicit" /></p>
+              <p className="track-text">{data.artistName}<img crossorigin="anonymous" src={dots} alt="dots" className="dots" /></p>
 
               {/* delete favourite */}
               <p className="add-fav" onClick={() => removeItem(data.trackId)}>
-                remove <img src={remove} alt="remove" className="remove" />
+                remove <img crossorigin="anonymous" src={remove} alt="remove" className="remove" />
               </p>
 
               {/* audio btn */}
