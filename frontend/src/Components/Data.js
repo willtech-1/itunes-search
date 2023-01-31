@@ -12,18 +12,18 @@ const Data = ({ data, addFavourite }) => {
       <div className="data-wrapper">
         {/* artwork */}
         <img
-          src={data.artworkUrl100.replace("100x100", "250x250")}
           crossorigin="anonymous"
+          src={data.artworkUrl100.replace("100x100", "250x250")}
           alt="artwork"
           className="itunes-images"
         />
         <div>
           {/* track and artist name */}
-          <p className="track-text">{data.trackName}<img src={explicit} alt="explicit" className="explicit" /></p>
-          <p className="track-text">{data.artistName}<img src={dots} alt="dots" className="dots" /></p>
+          <p className="track-text">{data.trackName}<img crossorigin="anonymous" src={explicit} alt="explicit" className="explicit" /></p>
+          <p className="track-text">{data.artistName}<img crossorigin="anonymous" src={dots} alt="dots" className="dots" /></p>
           {/* add to favourite */}
           <p className="add-fav" onClick={() => addFavourite(data)}>
-            add to fav <img src={add} alt="add" className="add-song" />
+            add to fav <img crossorigin="anonymous" src={add} alt="add" className="add-song" />
           </p>
           {/* song preview */}
           <button className="audio-btn">
