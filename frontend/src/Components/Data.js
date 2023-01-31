@@ -13,6 +13,7 @@ const Data = ({ data, addFavourite }) => {
         {/* artwork */}
         <img
           src={data.artworkUrl100.replace("100x100", "250x250")}
+          crossorigin="anonymous"
           alt="artwork"
           className="itunes-images"
         />
